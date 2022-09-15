@@ -28,7 +28,7 @@ function App() {
   }
 
   const deleteToDo = (id) => {
-    axios.post(`https://todo-app-academlo.herokuapp.com/todos/${id}/`)
+    axios.delete(`https://todo-app-academlo.herokuapp.com/todos/${id}/`)
     .then(() => getToDo())
   }
 
@@ -37,7 +37,7 @@ function App() {
   }
 
   const updateToDo = (newToDo) => {
-    axios.post(`https://todo-app-academlo.herokuapp.com/todos/${toDoSelected.id}/`, newToDo)
+    axios.put(`https://todo-app-academlo.herokuapp.com/todos/${toDoSelected.id}/`, newToDo)
     .then(() => getToDo())
   }
 
