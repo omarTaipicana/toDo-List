@@ -1,0 +1,94 @@
+:root {
+  background-image: url(../src/assets/images/IMAGE.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.App {
+  width: 70%;
+  margin: 5% auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.544);
+  padding: 2rem;
+  border-radius: 1rem;
+  height: 75vh;
+
+}
+
+.input-content{
+  text-align: center;
+}
+.input{
+  width: 98%;
+}
+
+
+.list-content {
+  width: 50%;
+  line-height: 25px;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.611);
+  padding: 2rem;
+  border-radius: 1rem;
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+ul {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  background-color: rgba(128, 128, 128, 0.423);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  list-style: none;
+}
+
+.btn-list-cotent {
+  text-align: center;
+}
+
+.btn-list {
+  background-color:rgb(14 99 156);
+  margin: 0 5px;
+  padding: 2px 5px 2px 5px;
+  border-radius: 0.5rem;
+  color: white;
+  width: 3rem;
+}
+
+.btn-form {
+  background-color: rgba(168, 242, 49, 0.841);
+  margin: 0 5px;
+  padding: 2px 5px 2px 5px;
+  border-radius: 0.5rem;
+}
+.btn-form-content{
+  text-align: center;
+  margin-top: 1rem;
+}
+#isCompleted{
+  margin: 0 1rem;
+}
